@@ -57,7 +57,9 @@ section {
 .col {
   padding: 0;
 }
-
+.nav {
+  display: flex;
+}
 .nav-link {
   color: #000;
   font-size: 14px;
