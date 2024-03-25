@@ -303,3 +303,14 @@ footer {
   color: #0d28a6;
   text-decoration: double;
 }
+/* Footer end */
+
+/* Responsif */
+@media screen and (max-widht: 768px) {
+  .btn-primary-navbar {
+    align-items: flex-start;
+  }
+  .jumbotron-text {
+    width: fit-content;
+  }
+}
