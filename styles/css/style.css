@@ -330,4 +330,32 @@ footer {
   .offcanvas {
     max-width: 50%;
   }
+
+  /* Hero section */
+  #jumbo {
+    margin-left: 1em;
+  }
+
+  img#jumbo {
+    margin-right: 0%;
+  }
+
+  #service-img {
+    padding-bottom: 2em;
+    max-width: 80%;
+  }
+
+  .jumbotron-text {
+    margin-left: 0;
+    width: fit-content;
+  }
+
+  .jumbotron-text p {
+    text-align-last: left;
+  }
+
+  .jumbotron-img {
+    max-width: 100%;
+    align-items: flex;
+  }
 }
