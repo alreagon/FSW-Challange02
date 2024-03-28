@@ -1,10 +1,10 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Helvetica", sans-serif;
 }
 
 body {
-  font-family: "Helvetica", sans-serif;
   overflow: hidden;
   overflow-y: scroll;
   scroll-behavior: smooth;
@@ -35,14 +35,14 @@ h4 {
   font-weight: bold;
   font-weight: 700;
   line-height: 20px;
-  color: #000;
+  color: black;
 }
 
 p {
   font-size: 14px;
   font-weight: 300;
   line-height: 20px;
-  color: #000;
+  color: black;
 }
 
 header {
@@ -57,35 +57,8 @@ section {
 .col {
   padding: 0;
 }
-.nav {
-  display: flex;
-}
-.nav-link {
-  color: #000;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-}
-.nav-link:hover {
-  color: #0d28a6;
-}
-
-.navbar-collapse {
-  align-items: flex-end;
-}
-/* Color of the links BEFORE scroll */
-.navbar-scroll .nav-link,
-.navbar-scroll .navbar-toggler-icon,
-.navbar-scroll .navbar-brand {
-  color: #fff;
-}
-
-/* Color of the links AFTER scroll */
-.navbar-scrolled .nav-link,
-.navbar-scrolled .navbar-toggler-icon,
-.navbar-scrolled .navbar-brand {
-  color: #fff;
+.collapse {
+  background-color: white;
 }
 
 .mask-custom {
@@ -101,6 +74,21 @@ section {
   color: #f9cc00;
 }
 
+.nav-link {
+  color: black;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-right: 32px;
+}
+.nav-link:hover {
+  color: #0d28a6;
+}
+
+.navbar-collapse {
+  align-items: flex-end;
+}
 .btn {
   border: none;
   background-color: #5cb85f;
@@ -295,6 +283,10 @@ footer {
   size: 10px;
 }
 
+.footer-child li {
+  margin-bottom: 16px;
+}
+
 .accordion-item {
   margin-bottom: 16px;
 }
@@ -304,13 +296,3 @@ footer {
   text-decoration: double;
 }
 /* Footer end */
-
-/* Responsif */
-@media screen and (max-widht: 768px) {
-  .btn-primary-navbar {
-    align-items: flex-start;
-  }
-  .jumbotron-text {
-    width: fit-content;
-  }
-}
