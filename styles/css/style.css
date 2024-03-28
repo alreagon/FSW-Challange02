@@ -401,4 +401,23 @@ footer {
     z-index: 10;
     top: 445px;
   }
+
+  /* Banner section */
+  .card-body-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cta-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 32px;
+    width: 328px;
+    height: 400px;
+  }
 }
