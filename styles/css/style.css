@@ -296,3 +296,38 @@ footer {
   text-decoration: double;
 }
 /* Footer end */
+
+/* Responsif */
+
+@media screen and (max-width: 450px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Navbar */
+  .button-nav {
+    align-items: flex-start;
+  }
+  .navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .nav-link {
+    margin-right: 0px;
+  }
+
+  .navbar-collapse {
+    align-items: flex-start;
+  }
+
+  .navbar-collapse ul {
+    margin-left: 1rem;
+  }
+
+  .offcanvas {
+    max-width: 50%;
+  }
+}
