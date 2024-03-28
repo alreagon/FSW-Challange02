@@ -358,4 +358,47 @@ footer {
     max-width: 100%;
     align-items: flex;
   }
+
+  /* Why us section */
+
+  .title-why-us {
+    text-align: center;
+  }
+
+  .card-why-us {
+    margin-bottom: 16px;
+  }
+
+  /* Testimonial section */
+
+  .carousel-card {
+    flex-direction: column;
+  }
+
+  .carousel-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 !important;
+  }
+
+  .carousel-image {
+    margin: 1rem;
+  }
+
+  .container {
+    position: relative;
+  }
+  .carousel-container {
+    padding-bottom: 7rem;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .carousel-button {
+    position: absolute;
+    z-index: 10;
+    top: 445px;
+  }
 }
